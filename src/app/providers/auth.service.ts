@@ -48,10 +48,6 @@ export class AuthService {
   		this.isLoggedIn = state;
   	}
 
-  	getLoginState(){
-  		return this.isLoggedIn !== null;
-  	}
-
   	/*
   	 * loginWithGoogle
   	 */
